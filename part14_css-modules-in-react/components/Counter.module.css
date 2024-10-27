@@ -1,0 +1,12 @@
+.button {
+    background-color: skyblue;
+}
+
+.textXl {
+    font-size: 4rem;
+}
+
+/* CSS Modules are a popular approach to styling React components. 
+They allow you to write CSS that is scoped locally to the component,
+ which helps avoid issues with class name collisions and makes your 
+ styles more maintainable. Here’s a breakdown of CSS Modules and how they work in React: */
