@@ -2954,53 +2954,53 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _client = require("react-dom/client");
-var _appJs = require("./App.js");
-var _appJsDefault = parcelHelpers.interopDefault(_appJs);
+var _app = require("./App");
+var _appDefault = parcelHelpers.interopDefault(_app);
 var _reactRouterDom = require("react-router-dom");
-var _contactJsx = require("./components/contact.jsx");
-var _contactJsxDefault = parcelHelpers.interopDefault(_contactJsx);
-var _homeJsx = require("./components/Home.jsx");
-var _homeJsxDefault = parcelHelpers.interopDefault(_homeJsx);
-var _errorJsx = require("./components/Error.jsx");
-var _errorJsxDefault = parcelHelpers.interopDefault(_errorJsx);
+var _contact = require("./components/Contact");
+var _contactDefault = parcelHelpers.interopDefault(_contact);
+var _home = require("./components/Home");
+var _homeDefault = parcelHelpers.interopDefault(_home);
+var _error = require("./components/Error");
+var _errorDefault = parcelHelpers.interopDefault(_error);
 var _countryDetails = require("./components/CountryDetails");
 var _countryDetailsDefault = parcelHelpers.interopDefault(_countryDetails);
 const router = (0, _reactRouterDom.createBrowserRouter)([
     {
         path: "/",
-        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appJsDefault.default), {}, void 0, false, {
+        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appDefault.default), {}, void 0, false, {
             fileName: "index.js",
-            lineNumber: 14,
-            columnNumber: 17
+            lineNumber: 12,
+            columnNumber: 14
         }, undefined),
-        errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorJsxDefault.default), {}, void 0, false, {
+        errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorDefault.default), {}, void 0, false, {
             fileName: "index.js",
-            lineNumber: 15,
-            columnNumber: 22
+            lineNumber: 13,
+            columnNumber: 19
         }, undefined),
         children: [
             {
                 path: "/",
-                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeJsxDefault.default), {}, void 0, false, {
+                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {}, void 0, false, {
                     fileName: "index.js",
-                    lineNumber: 19,
-                    columnNumber: 25
+                    lineNumber: 17,
+                    columnNumber: 18
                 }, undefined)
             },
             {
                 path: "/:country",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _countryDetailsDefault.default), {}, void 0, false, {
                     fileName: "index.js",
-                    lineNumber: 23,
-                    columnNumber: 25
+                    lineNumber: 21,
+                    columnNumber: 18
                 }, undefined)
             },
             {
                 path: "/contact",
-                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactJsxDefault.default), {}, void 0, false, {
+                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
                     fileName: "index.js",
-                    lineNumber: 27,
-                    columnNumber: 25
+                    lineNumber: 25,
+                    columnNumber: 18
                 }, undefined)
             }
         ]
@@ -3011,7 +3011,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterP
     router: router
 }, void 0, false, {
     fileName: "index.js",
-    lineNumber: 36,
+    lineNumber: 33,
     columnNumber: 13
 }, undefined));
 
@@ -3020,7 +3020,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterP
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./App.js":"2Ew96","react-router-dom":"9xmpe","./components/contact.jsx":"5i2st","./components/Home.jsx":"iQl8a","./components/Error.jsx":"gYVM0","./components/CountryDetails":"bEBYj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./App":"2Ew96","./components/Contact":"idlIC","./components/Home":"iQl8a","./components/Error":"gYVM0","./components/CountryDetails":"bEBYj"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27263,52 +27263,7 @@ module.exports = require("ef03b89c8fe2794e");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"2Ew96":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$c1db = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$c1db.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _hearder = require("./components/hearder");
-var _hearderDefault = parcelHelpers.interopDefault(_hearder);
-var _reactRouterDom = require("react-router-dom");
-var _appCss = require("./App.css");
-var _themeContextJs = require("./Contexts/ThemeContext.js");
-const App = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _themeContextJs.ThemeProvider), {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _hearderDefault.default), {}, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 9,
-                columnNumber: 9
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 10,
-                columnNumber: 9
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "App.js",
-        lineNumber: 8,
-        columnNumber: 7
-    }, undefined);
-};
-_c = App;
-exports.default = App;
-var _c;
-$RefreshReg$(_c, "App");
-
-  $parcel$ReactRefreshHelpers$c1db.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","./App.css":"7g3a6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/hearder":"jxY6X","./Contexts/ThemeContext.js":"fq2YL"}],"9xmpe":[function(require,module,exports) {
+},{}],"9xmpe":[function(require,module,exports) {
 /**
  * React Router DOM v6.26.2
  *
@@ -34518,7 +34473,7 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"7g3a6":[function() {},{}],"km3Ru":[function(require,module,exports) {
+},{}],"km3Ru":[function(require,module,exports) {
 "use strict";
 var Refresh = require("7422ead32dcc1e6b");
 function debounce(func, delay) {
@@ -34656,7 +34611,52 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"786KC"}],"jxY6X":[function(require,module,exports) {
+},{"7422ead32dcc1e6b":"786KC"}],"2Ew96":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$c1db = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c1db.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _hearder = require("./components/hearder");
+var _hearderDefault = parcelHelpers.interopDefault(_hearder);
+var _reactRouterDom = require("react-router-dom");
+var _appCss = require("./App.css");
+var _themeContextJs = require("./Contexts/ThemeContext.js");
+const App = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _themeContextJs.ThemeProvider), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _hearderDefault.default), {}, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 9,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 10,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "App.js",
+        lineNumber: 8,
+        columnNumber: 7
+    }, undefined);
+};
+_c = App;
+exports.default = App;
+var _c;
+$RefreshReg$(_c, "App");
+
+  $parcel$ReactRefreshHelpers$c1db.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","./components/hearder":"jxY6X","react-router-dom":"9xmpe","./App.css":"7g3a6","./Contexts/ThemeContext.js":"fq2YL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jxY6X":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$2d89 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -34667,13 +34667,11 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>Header);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
 var _useTheme = require("../hooks/useTheme");
 var _s = $RefreshSig$();
-function Header({ theme }) {
+function Header() {
     _s();
-    const [isDark, SetIsDark] = (0, _useTheme.useTheme)();
+    const [isDark, setIsDark] = (0, _useTheme.useTheme)();
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
         className: `header-container ${isDark ? "dark" : ""}`,
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34683,21 +34681,21 @@ function Header({ theme }) {
                     className: "title",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                         href: "/",
-                        children: "where in the world "
+                        children: "Where in the world?"
                     }, void 0, false, {
                         fileName: "components/hearder.jsx",
                         lineNumber: 10,
-                        columnNumber: 21
+                        columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "components/hearder.jsx",
                     lineNumber: 9,
-                    columnNumber: 17
+                    columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     className: "theme-changer",
                     onClick: ()=>{
-                        SetIsDark(!isDark);
+                        setIsDark(!isDark);
                         localStorage.setItem("isDarkMode", !isDark);
                     },
                     children: [
@@ -34706,7 +34704,7 @@ function Header({ theme }) {
                         }, void 0, false, {
                             fileName: "components/hearder.jsx",
                             lineNumber: 16,
-                            columnNumber: 21
+                            columnNumber: 11
                         }, this),
                         "\xa0\xa0",
                         isDark ? "Light" : "Dark",
@@ -34715,21 +34713,21 @@ function Header({ theme }) {
                 }, void 0, true, {
                     fileName: "components/hearder.jsx",
                     lineNumber: 12,
-                    columnNumber: 17
+                    columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "components/hearder.jsx",
             lineNumber: 8,
-            columnNumber: 13
+            columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "components/hearder.jsx",
         lineNumber: 7,
-        columnNumber: 9
+        columnNumber: 5
     }, this);
 }
-_s(Header, "yrw5qmVEJ+j4LWzn+g6m4pDMO7g=", false, function() {
+_s(Header, "ujT4kM5ZGT/6Hjhi5n8jzCo7Ybw=", false, function() {
     return [
         (0, _useTheme.useTheme)
     ];
@@ -34743,7 +34741,7 @@ $RefreshReg$(_c, "Header");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../hooks/useTheme":"ecUob","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"ecUob":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../hooks/useTheme":"ecUob","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"ecUob":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$f3b8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -34767,7 +34765,7 @@ _s(useTheme, "gDsCjeeItUuvgOWf1v4qoK9RF6k=");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../Contexts/ThemeContext.js":"fq2YL"}],"fq2YL":[function(require,module,exports) {
+},{"react":"21dqq","../Contexts/ThemeContext.js":"fq2YL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fq2YL":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$e24c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -34807,11 +34805,11 @@ $RefreshReg$(_c, "ThemeProvider");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5i2st":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$f80f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7g3a6":[function() {},{}],"idlIC":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$3f7e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$f80f.prelude(module);
+$parcel$ReactRefreshHelpers$3f7e.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -34831,7 +34829,7 @@ function Contact() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
         children: "Contact Us"
     }, void 0, false, {
-        fileName: "components/contact.jsx",
+        fileName: "components/Contact.jsx",
         lineNumber: 8,
         columnNumber: 10
     }, this);
@@ -34845,7 +34843,7 @@ _c = Contact;
 var _c;
 $RefreshReg$(_c, "Contact");
 
-  $parcel$ReactRefreshHelpers$f80f.postlude(module);
+  $parcel$ReactRefreshHelpers$3f7e.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
@@ -34868,7 +34866,6 @@ var _selectMenu = require("./SelectMenu");
 var _selectMenuDefault = parcelHelpers.interopDefault(_selectMenu);
 var _countriesList = require("./CountriesList");
 var _countriesListDefault = parcelHelpers.interopDefault(_countriesList);
-// import {useOutletContext} from 'react-router-dom';
 var _useTheme = require("../hooks/useTheme");
 var _s = $RefreshSig$();
 function Home() {
@@ -34888,7 +34885,9 @@ function Home() {
                         lineNumber: 13,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _selectMenuDefault.default), {}, void 0, false, {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _selectMenuDefault.default), {
+                        setQuery: setQuery
+                    }, void 0, false, {
                         fileName: "components/Home.jsx",
                         lineNumber: 14,
                         columnNumber: 9
@@ -34899,12 +34898,12 @@ function Home() {
                 lineNumber: 12,
                 columnNumber: 7
             }, this),
-            query === "unmount" ? "" : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _countriesListDefault.default), {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _countriesListDefault.default), {
                 query: query
             }, void 0, false, {
                 fileName: "components/Home.jsx",
                 lineNumber: 16,
-                columnNumber: 35
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
@@ -34927,7 +34926,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./SearchBar":"4HJPW","./SelectMenu":"hfvcB","./CountriesList":"bJsk6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../hooks/useTheme":"ecUob"}],"4HJPW":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./SearchBar":"4HJPW","./SelectMenu":"hfvcB","./CountriesList":"bJsk6","../hooks/useTheme":"ecUob","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4HJPW":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$e8d4 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -34952,7 +34951,7 @@ function SearchBar({ setQuery }) {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                onChange: (e)=>setQuery(e.target.value.toLocalCase()),
+                onChange: (e)=>setQuery(e.target.value.toLowerCase()),
                 type: "text",
                 placeholder: "Search for a country..."
             }, void 0, false, {
@@ -34987,25 +34986,20 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>SelectMenu);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-function SelectMenu() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+function SelectMenu({ setQuery }) {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("select", {
         className: "filter-by-region",
+        onChange: (e)=>setQuery(e.target.value.toLowerCase()),
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                hidden: "",
-                children: "filter-by-region"
-            }, void 0, false, {
-                fileName: "components/SelectMenu.jsx",
-                lineNumber: 5,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                value: true,
-                children: "Indian"
+                hidden: true,
+                children: "Filter by Region"
             }, void 0, false, {
                 fileName: "components/SelectMenu.jsx",
                 lineNumber: 6,
-                columnNumber: 9
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
                 value: "Africa",
@@ -35013,15 +35007,15 @@ function SelectMenu() {
             }, void 0, false, {
                 fileName: "components/SelectMenu.jsx",
                 lineNumber: 7,
-                columnNumber: 9
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                value: "America",
-                children: "America"
+                value: "Americas",
+                children: "Americas"
             }, void 0, false, {
                 fileName: "components/SelectMenu.jsx",
                 lineNumber: 8,
-                columnNumber: 9
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
                 value: "Asia",
@@ -35029,7 +35023,7 @@ function SelectMenu() {
             }, void 0, false, {
                 fileName: "components/SelectMenu.jsx",
                 lineNumber: 9,
-                columnNumber: 9
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
                 value: "Europe",
@@ -35037,7 +35031,7 @@ function SelectMenu() {
             }, void 0, false, {
                 fileName: "components/SelectMenu.jsx",
                 lineNumber: 10,
-                columnNumber: 9
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
                 value: "Oceania",
@@ -35045,13 +35039,13 @@ function SelectMenu() {
             }, void 0, false, {
                 fileName: "components/SelectMenu.jsx",
                 lineNumber: 11,
-                columnNumber: 9
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "components/SelectMenu.jsx",
-        lineNumber: 4,
-        columnNumber: 9
+        lineNumber: 5,
+        columnNumber: 5
     }, this);
 }
 _c = SelectMenu;
@@ -35063,7 +35057,7 @@ $RefreshReg$(_c, "SelectMenu");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bJsk6":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bJsk6":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$162a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35761,7 +35755,7 @@ $RefreshReg$(_c, "CountryDetail");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./CountryDetail.css":"jpfWC","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../hooks/useTheme":"ecUob","./CountryDetailShimmer":"doyaI"}],"jpfWC":[function() {},{}],"doyaI":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./CountryDetail.css":"jpfWC","react-router-dom":"9xmpe","../hooks/useTheme":"ecUob","./CountryDetailShimmer":"doyaI","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jpfWC":[function() {},{}],"doyaI":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$d57b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
